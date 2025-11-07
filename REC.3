@@ -1,0 +1,10 @@
+lista_A = [1, 2, 3, 4, 5]
+lista_B = [4, 5, 6, 7, 8]
+
+comuns = []  # lista vazia para armazenar os elementos que aparecem nas duas listas
+
+for elemento in lista_A:
+    if elemento in lista_B:  # verifica se o elemento também está na lista_B
+        comuns.append(elemento)
+
+print("Elementos comuns às duas listas:", comuns)
